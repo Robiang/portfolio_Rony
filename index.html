@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rony Gael OBIANG — Développeur Front-end</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══ HEADER ══════════════════════════════════════ -->
+    <header class="header" id="header">
+        <div class="header-inner">
+
+            <span class="header-logo">Rony Gael OBIANG</span>
+
+            <nav class="nav" id="nav">
+                <a href="#accueil"     class="nav-link">Accueil</a>
+                <a href="#projets"     class="nav-link">Projets</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#contact"     class="nav-link">Contact</a>
+            </nav>
+
+            <!-- Boutons droite -->
+            <div class="header-right">
+                <button id="themeToggle" class="theme-toggle" aria-label="Changer le thème">🌙</button>
+                <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div><!-- /header-inner -->
+    </header>
+
+
+    <!-- ═════════════════════════════════
+         HERO
+    ═════════════════════════════════ -->
+    <section class="hero" id="accueil">
+        <div class="hero-inner">
+
+            <!-- Avatar avec orbites animées -->
+            <div class="hero-avatar">
+
+                <!-- Orbite 1 (proche) -->
+                <div class="orbit orbit-1">
+                    <div class="orbit-dot"></div>
+                </div>
+
+                <!-- Orbite 2 (moyenne) -->
+                <div class="orbit orbit-2">
+                    <div class="orbit-dot"></div>
+                </div>
+
+                <!-- Orbite 3 (large) -->
+                <div class="orbit orbit-3">
+                    <div class="orbit-dot"></div>
+                </div>
+
+                <img
+                    src="asset/image/dev-rony.jpeg"
+                    alt="Rony Gael OBIANG"
+                    class="hero-img"
+                >
+
+                <!-- Badge statut -->
+                <div class="avatar-status">
+                    <div class="status-dot"></div>
+                    <span class="status-txt">Disponible</span>
+                </div>
+
+            </div><!-- /hero-avatar -->
+
+            <!-- Texte -->
+            <div class="hero-text">
+                <h1 class="hero-title">Développeur Web Frontend Junior</h1>
+                <p class="hero-desc">
+                    Je conçois des interfaces web modernes, simples et efficaces,
+                    en combinant mon expérience terrain en systèmes numériques
+                    (TV numérique, vidéosurveillance, informatique) avec le développement web.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projets"         class="btn btn-primary">Voir mes projets</a>
+                    <a href="asset/cv/rony_obiang_cv_dev.pdf" class="btn btn-outline" target="_blank" rel="noopener">Télécharger mon CV</a>
+                </div>
+                <p class="hero-tagline">
+                    Du terrain au code : je crée des solutions numériques utiles et concrètes.
+                </p>
+            </div><!-- /hero-text -->
+
+        </div><!-- /hero-inner -->
+    </section>
+
+
+    <!-- ═════════════════════════════════
+         PROFILS
+    ═════════════════════════════════ -->
+    <section class="profiles" id="profils">
+        <h2 class="section-title">Mes profils</h2>
+        <div class="profiles-grid">
+
+            <div class="profile-card primary">
+                <h3>💻 Développeur Web</h3>
+                <p>Création d'interfaces modernes et développement frontend.</p>
+                <a href="asset/cv/rony_obiang_cv_dev.pdf" class="btn btn-primary" target="_blank">Voir CV technique</a>
+            </div>
+
+            <div class="profile-card">
+                <h3>👥 RH & Sociologie</h3>
+                <p>Analyse sociale, gestion humaine et concertation organisationnelle.</p>
+                <a href="asset/cv/rony_obiang_cv_rh.pdf" target="_blank" class="btn btn-outline">Voir CV RH</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ═════════════════════════════════
+         COMPÉTENCES + PROJETS
+    ═════════════════════════════════ -->
+    <div class="body-grid">
+
+        <!-- COMPÉTENCES -->
+        <section class="section" id="competences">
+            <h2 class="section-title">Mes compétences</h2>
+            <ul class="skill-list">
+
+                <li class="skill-item">
+                    <span class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2v20M2 12h20"/>
+                        </svg>
+                    </span>
+                    <span class="skill-name">Figma / UI Design</span>
+                </li>
+
+                <li class="skill-item">
+                    <span class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="4 3 6 21 12 22 18 21 20 3 4 3"/>
+                        </svg>
+                    </span>
+                    <span class="skill-name">HTML5 / CSS3 / JavaScript</span>
+                </li>
+
+                <li class="skill-item">
+                    <span class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </span>
+                    <span class="skill-name">TypeScript</span>
+                </li>
+
+                <li class="skill-item">
+                    <span class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                            <path d="M8 12h8M12 8v8"/>
+                        </svg>
+                    </span>
+                    <span class="skill-name">React / Vue.js</span>
+                </li>
+
+                <li class="skill-item">
+                    <span class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/>
+                        </svg>
+                    </span>
+                    <span class="skill-name">Vite / Git / GitHub</span>
+                </li>
+
+            </ul>
+        </section>
+
+
+        <!-- PROJETS -->
+        <section class="section" id="projets">
+            <h2 class="section-title">Mes projets</h2>
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <h3 class="project-title">Portfolio Personnel RGO</h3>
+                    <p class="project-tech">HTML / CSS / JS</p>
+                    <p class="project-desc">
+                        Interface futuriste avec avatar animé, orbites CSS,
+                        jeu shoot'em up intégré et mode sombre.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project-title">Portail Portfolios — Promo 14 Matin</h3>
+                    <p class="project-tech">HTML / CSS / JS</p>
+                    <p class="project-desc">
+                        Exposition en ligne avec navigation immersive et effets visuels modernes.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project-title">Cité de David</h3>
+                    <p class="project-tech">HTML / CSS / JS</p>
+                    <p class="project-desc">
+                        Plateforme évènementielle immersive.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3 class="project-title">Nioo</h3>
+                    <p class="project-tech">HTML / CSS / JS</p>
+                    <p class="project-desc">
+                        Application web et mobile de mise en relation
+                        entre prestataires de proximité et clients.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+    </div><!-- /body-grid -->
+
+
+    <!-- ═════════════════════════════════
+         JEU — RGO FIGHTER
+    ═════════════════════════════════ -->
+    <section class="game-section" id="game">
+        <h2 class="section-title">🕹️ RGO Fighter</h2>
+        <p class="game-sub">Détendez-vous entre deux sections !</p>
+
+        <div class="game-frame">
+            <canvas id="gameCanvas" width="680" height="400"></canvas>
+        </div>
+
+        <div class="game-controls">
+            <button class="game-btn" id="btnStart">▶ Démarrer</button>
+            <button class="game-btn" id="btnPause">⏸ Pause</button>
+            <button class="game-btn" id="btnReset">↺ Rejouer</button>
+        </div>
+
+        <p class="game-hint">← → ↑ ↓ pour bouger &nbsp;|&nbsp; ESPACE pour tirer</p>
+
+        <div class="mobile-ctrl">
+            <button class="game-btn" id="mLeft">◀</button>
+            <button class="game-btn" id="mShoot">🔴 Tir</button>
+            <button class="game-btn" id="mRight">▶</button>
+        </div>
+    </section>
+
+
+    <!-- ═════════════════════════════════
+         CONTACT
+    ═════════════════════════════════ -->
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+            <p class="contact-label">Contactez-moi :</p>
+            <a href="mailto:rgobiang@gmail.com" class="contact-email">rgobiang@gmail.com</a>
+            <div class="contact-divider"></div>
+            <p class="contact-sub">Envoyez-moi un message !</p>
+        </div>
+    </section>
+
+
+    <!-- ═════════════════════════════════
+         FOOTER
+    ═════════════════════════════════ -->
+    <footer class="footer">
+        <span class="footer-copy">© 2026 Rony – Tous droits réservés</span>
+        <span class="footer-logo">RGO</span>
+        <div class="footer-socials">
+
+            <a href="https://www.linkedin.com/in/rony-gaël-obiang-7474bb171" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+            </a>
+
+            <a href="https://github.com/Robiang" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.8c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.16.58.67.48C19.14 20.16 22 16.42 22 12c0-5.52-4.48-10-10-10z"/>
+                </svg>
+            </a>
+
+        </div>
+    </footer>
+
+    <!-- Vos scripts JS vont ici -->
+    <script src="main.js"></script>
+
+</body>
+</html>
